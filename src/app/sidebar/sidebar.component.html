@@ -1,0 +1,98 @@
+<div class="wrapper">
+    <!-- Sidebar -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Conocimientos básicos</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <p>You choose what you want to be..</p>
+            <li>
+                <a href="#variables" >Variables</a>
+            </li>
+            <li>
+                <a href="#">Tipos de datos primitivos</a>
+            </li>
+            <li>
+                <a href="#">Operadores</a>
+            </li>
+            <li>
+                <a href="#">Sentencias de control</a>
+            </li>
+            <li>
+                <a href="#">Ciclos</a>
+            </li>
+            <li>
+                <a href="#">Creación de clases</a>
+            </li>
+            <li>
+                <a href="#">Creación de objetos</a>
+            </li>
+            <li>
+                <a href="#">Métodos</a>
+            </li>
+            <li>
+                <a href="#">Constructores</a>
+            </li>
+            <li>
+                <a href="#">Alcance de Variables</a>
+            </li>
+            <li>
+                <a href="#">Memoria stack y heap</a>
+            </li>
+            <li>
+                <a href="#">Paso por valor y referencia</a>
+            </li>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="#">Page 1</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 2</a>
+                    </li>
+                    <li>
+                        <a href="#">Page 3</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="content">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span>Menu</span>
+                </button>
+            </div>
+        </nav>
+
+
+        <h2>Conceptos básicos</h2>
+        <p>En muchas ocaciones, el inicio de la formación de un aspirante a programador, es un poco incierto.
+            Principalmente por la decisión de que ruta o camino se debe tomar para comenzar a estudiar.</p>
+        <p>Con el acceso tan facil a la información, y los millones de sitios con los cuales se puede comenzar
+            a formar, el panorama amplia infinitamente las posibilidades. Tomando en cuenta las formas de enseñanza,
+            aprendizaje ordenado, siguiendo un orden progrsesivo de los módulos a aprender, etc.
+        </p>
+        <p>Estos y muchos otros aspectos infieren considerablemente, en el objetivo pricipal de aprender.</p>
+
+        <p>En muchas ocaciones, el inicio de la formación de un aspirante a programador, es un poco incierto.
+            Principalmente por la decisión de que ruta o camino se debe tomar para comenzar a estudiar.</p>
+        <p>Con el acceso tan facil a la información, y los millones de sitios con los cuales se puede comenzar
+            a formar, el panorama amplia infinitamente las posibilidades. Tomando en cuenta las formas de enseñanza,
+            aprendizaje ordenado, siguiendo un orden progrsesivo de los módulos a aprender, etc.
+        </p>
+
+
+    </div>
+</div>
+<script type="text/javascript">
+     $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+</script>

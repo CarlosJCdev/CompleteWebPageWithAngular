@@ -1,0 +1,32 @@
+ body{
+   margin: 0;
+
+ }
+ .spacer {
+    flex: 1;
+    float: right;
+    margin: 0 900px 0 0;
+  }
+  .nav-link{
+    font-size: 15px;
+  }  
+  i{
+    color: #d7dce3;;
+  }
+  .fa-github:hover{
+    color: rgb(212, 60, 60, );
+  }
+  .fa-linkedin:hover {
+    color: rgb(212, 60, 60, );
+  }
+.SectionP{
+  background-image: url("..//assets/icon/build.jpg");
+  background-size: cover;
+  padding: 100px 0;
+ //  height: 563px;
+}
+
+.Content{
+  background-size: cover;
+}
+
